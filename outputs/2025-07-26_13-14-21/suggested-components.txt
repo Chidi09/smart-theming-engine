@@ -1,0 +1,20 @@
+Component: Navbar
+Variation: Off-canvas/Hamburger Menu Navbar with Animated Transitions
+Rationale: Adds a dynamic and modern touch, often used in visually driven or mobile-first designs.
+---
+Component: Carousel/Image Slider
+Variation: Full-width Carousel with Pagination Dots and Navigation Arrows
+Rationale: A vibrant mood or creative layout benefits from dynamic visual elements. Aspect ratio 1.83 suggests suitability for large images.
+---
+Component: Accordion/Collapsible Panels
+Variation: FAQ Accordion Section
+Rationale: Efficiently displays large amounts of information in a compact space, common in professional settings.
+---
+Component: Tabs
+Variation: Content Tabs for Categorized Information
+Rationale: Organizes related content into distinct, easily navigable sections.
+---
+Component: Interactive Gallery/Lightbox
+Variation: Clickable Image Gallery with Lightbox View
+Rationale: Encourages exploration and interaction with visual content.
+---

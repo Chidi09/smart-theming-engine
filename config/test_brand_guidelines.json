@@ -1,0 +1,9 @@
+{
+    "primaryColor": "#1A73E8",
+    "secondaryColor": "#F0F0F0",
+    "accentColor": "#EA4335",
+    "headingFont": "Roboto",
+    "bodyFont": "Open Sans",
+    "layoutPreference": "minimalist",
+    "invalidKey": 123
+}

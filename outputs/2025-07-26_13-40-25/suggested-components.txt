@@ -1,0 +1,16 @@
+Component: Navbar
+Variation: Dense Navbar with Search Bar, User Avatar, and Dropdown Menus
+Rationale: Suitable for content-heavy sites, providing quick access to search and user-specific actions.
+---
+Component: Accordion/Collapsible Panels
+Variation: FAQ Accordion Section
+Rationale: Efficiently displays large amounts of information in a compact space, common in professional settings.
+---
+Component: Tabs
+Variation: Content Tabs for Categorized Information
+Rationale: Organizes related content into distinct, easily navigable sections.
+---
+Component: Tooltip/Popover
+Variation: Informational Tooltips on Hover
+Rationale: Provides contextual help or additional details without permanent UI elements.
+---

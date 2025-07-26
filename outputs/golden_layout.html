@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generated Theme Layout</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Apply Inter font family as a default, unless overridden by theme.css */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Custom CSS variables will be injected here by theme_builder.py */
+        :root {
+            --primary-color: #1A73E8; /* Placeholder, will be replaced by theme_builder */
+            --secondary-color: #F0F0F0;
+            --accent-color: #EA4335;
+            --font-heading: 'Inter', sans-serif; /* Placeholder */
+            --font-body: 'Inter', sans-serif; /* Placeholder */
+
+            /* Golden Ratio Spacing Units */
+            --spacing-xs: 18px;
+            --spacing-sm: 29px;
+            --spacing-md: 46px;
+            --spacing-lg: 75px;
+            --spacing-xl: 122px;
+            --spacing-2xl: 197px;
+        }
+
+        /* Example usage of CSS variables (for demonstration) */
+        .bg-primary { background-color: var(--primary-color); }
+        .text-accent { color: var(--accent-color); }
+        .font-heading { font-family: var(--font-heading); }
+        .font-body { font-family: var(--font-body); }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900 min-h-screen flex flex-col antialiased ">
+    <!-- Main container for responsiveness -->
+    <div class="container mx-auto p-18 flex-grow">
+
+        <!-- Header Section -->
+        <header class="bg-white shadow-lg rounded-lg p-4 mb-8 transition-all duration-500 ease-in-out" style="padding: var(--spacing-md);">
+            <div class="flex items-center justify-between">
+                <h1 class="text-3xl font-bold text-primary font-heading">Your Brand</h1>
+                <nav role="navigation" aria-label="Main navigation">
+                    <ul class="flex space-x-4">
+                        <li><a href="#" class="text-gray-700 hover:text-primary font-body transition-all duration-500 ease-in-out">Home</a></li>
+                        <li><a href="#" class="text-gray-700 hover:text-primary font-body transition-all duration-500 ease-in-out">About</a></li>
+                        <li><a href="#" class="text-gray-700 hover:text-primary font-body transition-all duration-500 ease-in-out">Services</a></li>
+                        <li><a href="#" class="text-gray-700 hover:text-primary font-body transition-all duration-500 ease-in-out">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="bg-primary text-white rounded-lg p-8 mb-8 flex flex-col items-center justify-center text-center transition-all duration-500 ease-in-out"
+                   style="min-height: 400px; padding: var(--spacing-xl);">
+            <h2 class="text-5xl font-extrabold mb-4 font-heading leading-normal tracking-tight">
+                Captivating Themes from Your Images
+            </h2>
+            <p class="text-xl mb-6 max-w-2xl font-body leading-normal tracking-tight">
+                Automatically generate stunning web themes, tailored to your visual content and brand identity.
+            </p>
+            <button class="bg-accent text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-opacity-90 transition-all duration-500 ease-in-out">
+                Get Started
+            </button>
+        </section>
+
+        <!-- Dynamic Content Section based on layout_style and analysis -->
+        <main role="main" class="grid gap-8">
+    
+            <section class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-18" style="padding: var(--spacing-lg);">
+                <div class="bg-white rounded-lg shadow-lg border-solid border-gray-300 border-2 p-6 transition-all duration-500 ease-in-out" style="padding: var(--spacing-md);">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-2 font-heading leading-normal tracking-tight">Minimal Feature 1: Clean Design</h3>
+                    <p class="text-gray-600 font-body leading-normal tracking-tight">
+                        This section emphasizes clarity and simplicity. Content is presented with generous spacing,
+                        allowing elements to breathe and focus on essential information.
+                        (Whitespace: 60.0%, Balance: 0.95)
+                    </p>
+                    <!-- Accessibility hint: Consider adding aria-label to interactive elements within this card -->
+                </div>
+                <div class="bg-white rounded-lg shadow-lg border-solid border-gray-300 border-2 p-6 transition-all duration-500 ease-in-out" style="padding: var(--spacing-md);">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-2 font-heading leading-normal tracking-tight">Minimal Feature 2: Subtle Elegance</h3>
+                    <p class="text-gray-600 font-body leading-normal tracking-tight">
+                        Clean lines and uncluttered design ensure a premium feel. The golden ratio guides
+                        the visual weight distribution for balanced aesthetics.
+                        (Fractal Dim: 1.55, Entropy: 5.00)
+                    </p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg border-solid border-gray-300 border-2 p-6 transition-all duration-500 ease-in-out" style="padding: var(--spacing-md);">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-2 font-heading leading-normal tracking-tight">Minimal Feature 3: Focused Content</h3>
+                    <p class="text-gray-600 font-body leading-normal tracking-tight">
+                        Essential elements are highlighted, reducing cognitive load for the user.
+                        This layout is ideal for elegant and focused presentations.
+                        (Aesthetic Score: 9.0/10)
+                    </p>
+                </div>
+            </section>
+            <!-- Example of Golden Ratio in a two-column layout (main content vs. sidebar) -->
+            <section class="grid grid-cols-1 lg:grid-cols-2.6180339887499997 gap-11" style="grid-template-columns: 1.61803398875fr 1fr; padding: var(--spacing-lg);">
+                <div class="bg-white rounded-lg shadow-lg border-solid border-gray-300 border-2 p-8 transition-all duration-500 ease-in-out">
+                    <h3 class="text-3xl font-bold mb-4 font-heading leading-normal tracking-tight">Main Content Area: Detailed Information</h3>
+                    <p class="text-gray-700 font-body leading-normal tracking-tight">
+                        This primary content block occupies a larger proportion, adhering to the golden ratio for visual hierarchy.
+                        It's designed for detailed information or a prominent call to action.
+                    </p>
+                    <p class="text-gray-700 mt-4 font-body leading-normal tracking-tight">
+                        The use of `grid-template-columns: 1.61803398875fr 1fr;` is a direct application of the Golden Ratio
+                        to define the relative widths of columns.
+                    </p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg border-solid border-gray-300 border-2 p-6 transition-all duration-500 ease-in-out">
+                    <h3 class="text-2xl font-bold mb-4 font-heading leading-normal tracking-tight">Sidebar: Quick Links</h3>
+                    <p class="text-gray-600 font-body leading-normal tracking-tight">
+                        A smaller, complementary section for navigation, related links, or secondary information.
+                        Its size is proportionally balanced with the main content.
+                    </p>
+                    <!-- Accessibility hint: Ensure navigation links are clearly labeled -->
+                </div>
+            </section>
+        
+        </main>
+
+        <!-- Footer Section -->
+        <footer role="contentinfo" class="bg-gray-800 text-white rounded-lg p-6 mt-8 text-center transition-all duration-500 ease-in-out" style="padding: var(--spacing-md);">
+            <p class="text-sm font-body leading-normal tracking-tight">&copy; 2025 Smart Theming Engine. All rights reserved.</p>
+        </footer>
+
+    </div>
+</body>
+</html>
+    

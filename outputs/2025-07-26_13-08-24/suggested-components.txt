@@ -1,0 +1,20 @@
+Component: Navbar
+Variation: Minimal Navbar with Logo Left and Simple Navigation
+Rationale: Aligns with minimalist aesthetic, focusing on clean lines and essential links.
+---
+Component: Hero Section
+Variation: Static Hero with Background Image and Call-to-Action
+Rationale: A calm/minimalist approach benefits from a strong, singular visual message without distractions.
+---
+Component: Accordion/Collapsible Panels
+Variation: FAQ Accordion Section
+Rationale: Efficiently displays large amounts of information in a compact space, common in professional settings.
+---
+Component: Tabs
+Variation: Content Tabs for Categorized Information
+Rationale: Organizes related content into distinct, easily navigable sections.
+---
+Component: Tooltip/Popover
+Variation: Informational Tooltips on Hover
+Rationale: Provides contextual help or additional details without permanent UI elements.
+---

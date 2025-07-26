@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generated Theme Layout</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Apply Inter font family as a default, unless overridden by theme.css */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Custom CSS variables will be injected here by theme_builder.py */
+        :root {
+            --primary-color: #1A73E8; /* Placeholder, will be replaced by theme_builder */
+            --secondary-color: #F0F0F0;
+            --accent-color: #EA4335;
+            --font-heading: 'Inter', sans-serif; /* Placeholder */
+            --font-body: 'Inter', sans-serif; /* Placeholder */
+
+            /* Golden Ratio Spacing Units */
+            --spacing-xs: 9px;
+            --spacing-sm: 15px;
+            --spacing-md: 24px;
+            --spacing-lg: 39px;
+            --spacing-xl: 63px;
+            --spacing-2xl: 102px;
+        }
+
+        /* Example usage of CSS variables (for demonstration) */
+        .bg-primary { background-color: var(--primary-color); }
+        .text-accent { color: var(--accent-color); }
+        .font-heading { font-family: var(--font-heading); }
+        .font-body { font-family: var(--font-body); }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900 min-h-screen flex flex-col antialiased bg-repeat bg-center bg-gray-200">
+    <!-- Main container for responsiveness -->
+    <div class="container mx-auto p-3 flex-grow">
+
+        <!-- Header Section -->
+        <header class="bg-white shadow-2xl rounded-3xl p-4 mb-8 " style="padding: var(--spacing-md);">
+            <div class="flex items-center justify-between">
+                <h1 class="text-3xl font-bold text-primary font-heading">Your Brand</h1>
+                <nav>
+                    <ul class="flex space-x-4">
+                        <li><a href="#" class="text-gray-700 hover:text-primary font-body ">Home</a></li>
+                        <li><a href="#" class="text-gray-700 hover:text-primary font-body ">About</a></li>
+                        <li><a href="#" class="text-gray-700 hover:text-primary font-body ">Services</a></li>
+                        <li><a href="#" class="text-gray-700 hover:text-primary font-body ">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="bg-primary text-white rounded-3xl p-8 mb-8 flex flex-col items-center justify-center text-center "
+                   style="min-height: 400px; padding: var(--spacing-xl);">
+            <h2 class="text-5xl font-extrabold mb-4 font-heading">
+                Captivating Themes from Your Images
+            </h2>
+            <p class="text-xl mb-6 max-w-2xl font-body">
+                Automatically generate stunning web themes, tailored to your visual content and brand identity.
+            </p>
+            <button class="bg-accent text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-opacity-90 ">
+                Get Started
+            </button>
+        </section>
+
+        <!-- Dynamic Content Section based on layout_style and analysis -->
+        <main class="grid gap-8">
+    
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-3" style="padding: var(--spacing-md);">
+                
+                <div class="bg-white rounded-3xl shadow-xl p-4 " style="padding: var(--spacing-sm);">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-1 font-heading">Dashboard Widget 1</h3>
+                    <p class="text-gray-600 text-sm font-body">
+                        This layout maximizes information density, ideal for dashboards or content-heavy sites.
+                        Smaller spacing units are used to keep elements close.
+                        (Entropy: 7.33, Whitespace: 11.7%)
+                    </p>
+                </div>
+                
+                <div class="bg-white rounded-3xl shadow-xl p-4 " style="padding: var(--spacing-sm);">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-1 font-heading">Dashboard Widget 2</h3>
+                    <p class="text-gray-600 text-sm font-body">
+                        This layout maximizes information density, ideal for dashboards or content-heavy sites.
+                        Smaller spacing units are used to keep elements close.
+                        (Entropy: 7.33, Whitespace: 11.7%)
+                    </p>
+                </div>
+                
+                <div class="bg-white rounded-3xl shadow-xl p-4 " style="padding: var(--spacing-sm);">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-1 font-heading">Dashboard Widget 3</h3>
+                    <p class="text-gray-600 text-sm font-body">
+                        This layout maximizes information density, ideal for dashboards or content-heavy sites.
+                        Smaller spacing units are used to keep elements close.
+                        (Entropy: 7.33, Whitespace: 11.7%)
+                    </p>
+                </div>
+                
+                <div class="bg-white rounded-3xl shadow-xl p-4 " style="padding: var(--spacing-sm);">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-1 font-heading">Dashboard Widget 4</h3>
+                    <p class="text-gray-600 text-sm font-body">
+                        This layout maximizes information density, ideal for dashboards or content-heavy sites.
+                        Smaller spacing units are used to keep elements close.
+                        (Entropy: 7.33, Whitespace: 11.7%)
+                    </p>
+                </div>
+                
+                <div class="bg-white rounded-3xl shadow-xl p-4 " style="padding: var(--spacing-sm);">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-1 font-heading">Dashboard Widget 5</h3>
+                    <p class="text-gray-600 text-sm font-body">
+                        This layout maximizes information density, ideal for dashboards or content-heavy sites.
+                        Smaller spacing units are used to keep elements close.
+                        (Entropy: 7.33, Whitespace: 11.7%)
+                    </p>
+                </div>
+                
+                <div class="bg-white rounded-3xl shadow-xl p-4 " style="padding: var(--spacing-sm);">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-1 font-heading">Dashboard Widget 6</h3>
+                    <p class="text-gray-600 text-sm font-body">
+                        This layout maximizes information density, ideal for dashboards or content-heavy sites.
+                        Smaller spacing units are used to keep elements close.
+                        (Entropy: 7.33, Whitespace: 11.7%)
+                    </p>
+                </div>
+                
+                <div class="bg-white rounded-3xl shadow-xl p-4 " style="padding: var(--spacing-sm);">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-1 font-heading">Dashboard Widget 7</h3>
+                    <p class="text-gray-600 text-sm font-body">
+                        This layout maximizes information density, ideal for dashboards or content-heavy sites.
+                        Smaller spacing units are used to keep elements close.
+                        (Entropy: 7.33, Whitespace: 11.7%)
+                    </p>
+                </div>
+                
+                <div class="bg-white rounded-3xl shadow-xl p-4 " style="padding: var(--spacing-sm);">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-1 font-heading">Dashboard Widget 8</h3>
+                    <p class="text-gray-600 text-sm font-body">
+                        This layout maximizes information density, ideal for dashboards or content-heavy sites.
+                        Smaller spacing units are used to keep elements close.
+                        (Entropy: 7.33, Whitespace: 11.7%)
+                    </p>
+                </div>
+                
+            </div>
+            <!-- Another example of dense layout with a tighter grid -->
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2" style="padding: var(--spacing-sm);">
+                
+                <div class="bg-gray-50 rounded-3xl p-3 text-center text-gray-700 text-sm font-body ">
+                    Data Point 1
+                </div>
+                
+                <div class="bg-gray-50 rounded-3xl p-3 text-center text-gray-700 text-sm font-body ">
+                    Data Point 2
+                </div>
+                
+                <div class="bg-gray-50 rounded-3xl p-3 text-center text-gray-700 text-sm font-body ">
+                    Data Point 3
+                </div>
+                
+                <div class="bg-gray-50 rounded-3xl p-3 text-center text-gray-700 text-sm font-body ">
+                    Data Point 4
+                </div>
+                
+                <div class="bg-gray-50 rounded-3xl p-3 text-center text-gray-700 text-sm font-body ">
+                    Data Point 5
+                </div>
+                
+                <div class="bg-gray-50 rounded-3xl p-3 text-center text-gray-700 text-sm font-body ">
+                    Data Point 6
+                </div>
+                
+                <div class="bg-gray-50 rounded-3xl p-3 text-center text-gray-700 text-sm font-body ">
+                    Data Point 7
+                </div>
+                
+                <div class="bg-gray-50 rounded-3xl p-3 text-center text-gray-700 text-sm font-body ">
+                    Data Point 8
+                </div>
+                
+                <div class="bg-gray-50 rounded-3xl p-3 text-center text-gray-700 text-sm font-body ">
+                    Data Point 9
+                </div>
+                
+                <div class="bg-gray-50 rounded-3xl p-3 text-center text-gray-700 text-sm font-body ">
+                    Data Point 10
+                </div>
+                
+            </div>
+        
+        </main>
+
+        <!-- Footer Section -->
+        <footer class="bg-gray-800 text-white rounded-3xl p-6 mt-8 text-center " style="padding: var(--spacing-md);">
+            <p class="text-sm font-body">&copy; 2025 Smart Theming Engine. All rights reserved.</p>
+        </footer>
+
+    </div>
+</body>
+</html>
+    

@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generated Theme Layout</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Apply Inter font family as a default, unless overridden by theme.css */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Custom CSS variables will be injected here by theme_builder.py */
+        :root {
+            --primary-color: #1A73E8; /* Placeholder, will be replaced by theme_builder */
+            --secondary-color: #F0F0F0;
+            --accent-color: #EA4335;
+            --font-heading: 'Inter', sans-serif; /* Placeholder */
+            --font-body: 'Inter', sans-serif; /* Placeholder */
+
+            /* Golden Ratio Spacing Units */
+            --spacing-xs: 16px;
+            --spacing-sm: 26px;
+            --spacing-md: 42px;
+            --spacing-lg: 69px;
+            --spacing-xl: 111px;
+            --spacing-2xl: 180px;
+        }
+
+        /* Example usage of CSS variables (for demonstration) */
+        .bg-primary { background-color: var(--primary-color); }
+        .text-accent { color: var(--accent-color); }
+        .font-heading { font-family: var(--font-heading); }
+        .font-body { font-family: var(--font-body); }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900 min-h-screen flex flex-col antialiased bg-repeat bg-center bg-gray-100 bg-opacity-50">
+    <!-- Main container for responsiveness -->
+    <div class="container mx-auto p-17 flex-grow">
+
+        <!-- Header Section -->
+        <header class="bg-white shadow-xl rounded-3xl p-4 mb-8 transition-all duration-300 ease-in-out" style="padding: var(--spacing-md);">
+            <div class="flex items-center justify-between">
+                <h1 class="text-3xl font-bold text-primary font-heading">Your Brand</h1>
+                <nav role="navigation" aria-label="Main navigation">
+                    <ul class="flex space-x-4">
+                        <li><a href="#" class="text-gray-700 hover:text-primary font-body transition-all duration-300 ease-in-out">Home</a></li>
+                        <li><a href="#" class="text-gray-700 hover:text-primary font-body transition-all duration-300 ease-in-out">About</a></li>
+                        <li><a href="#" class="text-gray-700 hover:text-primary font-body transition-all duration-300 ease-in-out">Services</a></li>
+                        <li><a href="#" class="text-gray-700 hover:text-primary font-body transition-all duration-300 ease-in-out">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="bg-primary text-white rounded-3xl p-8 mb-8 flex flex-col items-center justify-center text-center transition-all duration-300 ease-in-out"
+                   style="min-height: 400px; padding: var(--spacing-xl);">
+            <h2 class="text-5xl font-extrabold mb-4 font-heading leading-loose tracking-wide">
+                Captivating Themes from Your Images
+            </h2>
+            <p class="text-xl mb-6 max-w-2xl font-body leading-loose tracking-wide">
+                Automatically generate stunning web themes, tailored to your visual content and brand identity.
+            </p>
+            <button class="bg-accent text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-opacity-90 transition-all duration-300 ease-in-out">
+                Get Started
+            </button>
+        </section>
+
+        <!-- Dynamic Content Section based on layout_style and analysis -->
+        <main role="main" class="grid gap-8">
+    
+            <section class="grid grid-cols-1 md:grid-cols-3 gap-10" style="padding: var(--spacing-xl);">
+                <div class="md:col-span-3 lg:col-span-2 bg-white rounded-3xl shadow-lg border-dotted border-primary border-2 p-8 transition-all duration-300 ease-in-out" style="padding: var(--spacing-lg);">
+                    <h3 class="text-4xl font-bold text-gray-800 mb-4 font-heading leading-loose tracking-wide">Creative Showcase: Visual Storytelling</h3>
+                    <p class="text-gray-700 text-lg mb-4 font-body leading-loose tracking-wide">
+                        This section embraces asymmetry and dynamic visual flow. It might highlight an image
+                        with an aspect ratio of 1.0 in a prominent, non-standard way.
+                    </p>
+                    <p class="text-gray-700 text-lg font-body leading-loose tracking-wide">
+                        The layout adapts to inferred mood, for example, a 'creative, playful, dynamic' mood might lead to
+                        more fluid and less rigid structures, potentially incorporating more whitespace
+                        (50.0%) if the image analysis suggests it.
+                        (Fractal Dim: 1.60, Aesthetic Score: 8.0/10)
+                    </p>
+                    <!-- Accessibility hint: For complex layouts, ensure clear tab order and focus management -->
+                </div>
+                <div class="md:col-span-1 lg:col-span-1 bg-primary text-white rounded-3xl shadow-lg border-dotted border-primary border-2 p-6 flex flex-col justify-between transition-all duration-300 ease-in-out" style="padding: var(--spacing-md);">
+                    <div>
+                        <h3 class="text-3xl font-bold mb-2 font-heading leading-loose tracking-wide">Unique Element: Call to Action</h3>
+                        <p class="text-white text-md font-body leading-loose tracking-wide">
+                            A contrasting block designed to draw attention, perhaps for a call to action or a key statistic.
+                        </p>
+                    </div>
+                    <button class="bg-white text-primary px-6 py-2 rounded-full font-semibold hover:bg-gray-200 transition-all duration-300 ease-in-out mt-4">
+                        Discover More
+                    </button>
+                </div>
+            </section>
+            <!-- Another creative section: perhaps a staggered grid -->
+            <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-8" style="padding: var(--spacing-lg);">
+                <div class="bg-white rounded-3xl shadow-lg border-dotted border-primary border-2 p-6 md:col-span-1 transition-all duration-300 ease-in-out">
+                    <h4 class="text-2xl font-bold mb-2 font-heading leading-loose tracking-wide">Staggered Card 1: Image Gallery</h4>
+                    <p class="text-gray-600 font-body leading-loose tracking-wide">Content for card 1. (Symmetry H: 0.40)</p>
+                </div>
+                <div class="bg-white rounded-3xl shadow-lg border-dotted border-primary border-2 p-6 md:col-span-1 lg:col-start-2 lg:row-start-1 transition-all duration-300 ease-in-out">
+                    <h4 class="text-2xl font-bold mb-2 font-heading leading-loose tracking-wide">Staggered Card 2: Testimonial</h4>
+                    <p class="text-gray-600 font-body leading-loose tracking-wide">Content for card 2, possibly taller. (Symmetry V: 0.70)</p>
+                </div>
+                <div class="bg-white rounded-3xl shadow-lg border-dotted border-primary border-2 p-6 md:col-span-1 lg:col-start-3 lg:row-start-1 transition-all duration-300 ease-in-out">
+                    <h4 class="text-2xl font-bold mb-2 font-heading leading-loose tracking-wide">Staggered Card 3: Pricing Table</h4>
+                    <p class="text-gray-600 font-body leading-loose tracking-wide">Content for card 3. (Balance: 0.85)</p>
+                </div>
+            </section>
+        
+        </main>
+
+        <!-- Footer Section -->
+        <footer role="contentinfo" class="bg-gray-800 text-white rounded-3xl p-6 mt-8 text-center transition-all duration-300 ease-in-out" style="padding: var(--spacing-md);">
+            <p class="text-sm font-body leading-loose tracking-wide">&copy; 2025 Smart Theming Engine. All rights reserved.</p>
+        </footer>
+
+    </div>
+</body>
+</html>
+    

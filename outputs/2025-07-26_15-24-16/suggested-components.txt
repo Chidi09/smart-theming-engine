@@ -1,0 +1,12 @@
+Component: Image Carousel/Slider
+Variation: Full-width, auto-playing carousel with subtle transitions.
+Rationale: Creative layouts often feature strong visuals. A dynamic carousel complements a 'creative' or 'dynamic' mood. Aesthetic score (5.0/10) encourages smooth, high-quality animations.
+---
+Component: Parallax Scrolling Effect
+Variation: Background elements move at different speeds than foreground content.
+Rationale: Low symmetry (0.62/0.55) or an 'organic' principle suggests a more fluid, layered visual experience.
+---
+Component: Search with Autocomplete/Filtering
+Variation: Enhanced search functionality for large datasets or content.
+Rationale: High entropy (7.33) or 'complex' principle implies a need for robust content discovery and navigation.
+---

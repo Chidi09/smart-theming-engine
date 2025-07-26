@@ -1,0 +1,6 @@
+Suggested JavaScript Components:
+
+Component: Image Carousel/Slider
+  Variation: Full-width, auto-playing carousel with subtle transitions and parallax effects.
+  Rationale: Creative layouts often feature strong visuals. A dynamic carousel complements a 'creative' or 'dynamic' mood. Aesthetic score (5.0/10) encourages smooth, high-quality animations. (Libraries like 'Swiper.js' or 'Slick Carousel' are good starting points.)
+
